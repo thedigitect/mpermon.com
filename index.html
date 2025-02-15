@@ -40,22 +40,8 @@
     <link rel="mask-icon" href="./img/favicon.svg" color="#000000">
     <link rel="apple-touch-icon" href="favicon.png">
     
-    <!-- Tailwind con defer -->
-    <script src="https://unpkg.com/@tailwindcss/browser@4" defer></script>
-    
-    <!-- Configuración de Tailwind -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    fontFamily: {
-                        'serif': ['"Crimson Text"', 'serif'],
-                        'sans': ['Montserrat', 'sans-serif'],
-                    },
-                },
-            },
-        }
-    </script>
+    <!-- Reemplazar la CDN de Tailwind con el CSS compilado -->
+    <link href="./dist/output.css" rel="stylesheet">
 </head>
 
 <body>
