@@ -10,8 +10,123 @@
     <meta name="author" content="Mario Perez Monje">
     <meta name="keywords" content="Digital Consumer Tech, Product Lead, Procter & Gamble, Digital Products, Technology Leadership">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://mpermon.com">
-    
+    <link rel="canonical" href="https://mpermon.com/">
+
+    <!-- Structured Data (JSON-LD) for SEO & GEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "ProfilePage",
+                "@id": "https://mpermon.com/#profilepage",
+                "url": "https://mpermon.com/",
+                "name": "Mario Pérez Monje | Digital Consumer Tech & Product Lead",
+                "description": "Página personal de Mario Pérez Monje, Digital Consumer Tech & Product Lead en Procter & Gamble con casi 20 años de experiencia en productos digitales.",
+                "mainEntity": {
+                    "@id": "https://mpermon.com/#person"
+                },
+                "inLanguage": "es-ES",
+                "dateModified": "2026-01-18"
+            },
+            {
+                "@type": "Person",
+                "@id": "https://mpermon.com/#person",
+                "name": "Mario Pérez Monje",
+                "givenName": "Mario",
+                "familyName": "Pérez Monje",
+                "jobTitle": "Digital Consumer Tech & Product Lead",
+                "description": "Construyo productos digitales desde hace casi 20 años. He trabajado en consultoría y en cliente, liderando equipos de diseño, desarrollo y marketing desde el lado de ingeniería y de negocio.",
+                "url": "https://mpermon.com/",
+                "image": "https://mpermon.com/img/profile-bg.png",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressLocality": "Madrid",
+                    "addressCountry": "ES"
+                },
+                "worksFor": {
+                    "@type": "Organization",
+                    "name": "Procter & Gamble",
+                    "url": "https://www.pg.com/"
+                },
+                "alumniOf": [
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "Escuela Técnica Superior de Ingenieros de Telecomunicación - Universidad de Valladolid",
+                        "description": "Ingeniero de Telecomunicaciones"
+                    },
+                    {
+                        "@type": "EducationalOrganization",
+                        "name": "ICEX-CECO",
+                        "description": "Master in International e-Business"
+                    }
+                ],
+                "hasOccupation": {
+                    "@type": "Occupation",
+                    "name": "Digital Consumer Tech & Product Lead",
+                    "occupationLocation": {
+                        "@type": "City",
+                        "name": "Madrid"
+                    },
+                    "estimatedSalary": [],
+                    "skills": [
+                        "Product Management",
+                        "Digital Transformation",
+                        "User Experience (UX)",
+                        "Agile Methodologies",
+                        "Technology Leadership",
+                        "Digital Products",
+                        "Team Leadership",
+                        "Strategic Planning"
+                    ]
+                },
+                "knowsAbout": [
+                    "Digital Products",
+                    "Product Management",
+                    "Digital Transformation",
+                    "User Experience",
+                    "Agile",
+                    "Technology Leadership",
+                    "Consumer Tech",
+                    "e-Commerce"
+                ],
+                "knowsLanguage": [
+                    {
+                        "@type": "Language",
+                        "name": "Spanish",
+                        "alternateName": "es"
+                    },
+                    {
+                        "@type": "Language",
+                        "name": "English",
+                        "alternateName": "en"
+                    }
+                ],
+                "sameAs": [
+                    "https://es.linkedin.com/in/mpermon"
+                ],
+                "memberOf": [
+                    {
+                        "@type": "Organization",
+                        "name": "KPMG",
+                        "description": "Former employee"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Mutua Madrileña",
+                        "description": "Former employee"
+                    },
+                    {
+                        "@type": "Organization",
+                        "name": "Nationale-Nederlanden",
+                        "description": "Former employee"
+                    }
+                ]
+            }
+        ]
+    }
+    </script>
+
     <!-- Open Graph mejorado -->
     <meta property="og:type" content="profile">
     <meta property="og:locale" content="es_ES">
@@ -20,9 +135,9 @@
     
     <!-- Twitter Card (existente) -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="mpermon.com" />
+    <meta name="twitter:site" content="@mpermon" />
     <meta name="twitter:creator" content="@mpermon" />
-    <meta property="og:url" content="https://mpermon.com" />
+    <meta property="og:url" content="https://mpermon.com/" />
     <meta property="og:title" content="Mario Perez Monje" />
     <meta property="og:description" content="Digital Consumer Tech &amp; Product Lead. Procter &amp; Gamble" />
     <meta name="description" content="Digital Consumer Tech &amp; Product Lead. Procter &amp; Gamble">
@@ -38,41 +153,45 @@
     <!-- Favicon optimizado -->
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg">
     <link rel="mask-icon" href="./img/favicon.svg" color="#000000">
-    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="apple-touch-icon" href="./img/favicon.png">
     
     <!-- Reemplazar la CDN de Tailwind con el CSS compilado -->
     <link href="./dist/output.css" rel="stylesheet">
 </head>
 
 <body>
-    <article class="font-serif">
+    <main>
+    <article class="font-serif" itemscope itemtype="https://schema.org/Person">
         <header class="h-screen bg-gray-50 text-gray-900 w-full">
             <div style="background:url(./img/profile-bg.png) no-repeat center right;background-size: cover;" 
                  class="flex items-center h-full px-4 md:px-6 lg:px-8">
                 <div class="w-full">
                     <p class="text-right">
-                        <a class="inline-block h-6 w-6 mr-3 text-gray-900 hover:text-gray-400" 
-                           href="https://es.linkedin.com/in/mpermon" 
-                           title="LinkedIn" 
-                           target="_blank">
-                            <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
+                        <a class="inline-block h-6 w-6 mr-3 text-gray-900 hover:text-gray-400"
+                           href="https://es.linkedin.com/in/mpermon"
+                           title="LinkedIn"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Perfil de LinkedIn de Mario Pérez Monje">
+                            <svg aria-hidden="true" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><path d="M13.632 13.635h-2.37V9.922c0-.886-.018-2.025-1.234-2.025-1.235 0-1.424.964-1.424 1.96v3.778h-2.37V6H8.51V7.04h.03c.318-.6 1.092-1.233 2.247-1.233 2.4 0 2.845 1.58 2.845 3.637v4.188zM3.558 4.955c-.762 0-1.376-.617-1.376-1.377 0-.758.614-1.375 1.376-1.375.76 0 1.376.617 1.376 1.375 0 .76-.617 1.377-1.376 1.377zm1.188 8.68H2.37V6h2.376v7.635zM14.816 0H1.18C.528 0 0 .516 0 1.153v13.694C0 15.484.528 16 1.18 16h13.635c.652 0 1.185-.516 1.185-1.153V1.153C16 .516 15.467 0 14.815 0z" fill-rule="nonzero"/></svg>
                         </a>
                     </p>
-                    <h1 class="font-light text-3xl lg:text-7xl mb-3 max-w-prose">
-                        <strong class="font-semibold">m</strong>ario 
-                        <strong class="font-semibold">p</strong>érez 
+                    <h1 class="font-light text-3xl lg:text-7xl mb-3 max-w-prose" itemprop="name">
+                        <strong class="font-semibold">m</strong>ario
+                        <strong class="font-semibold">p</strong>érez
                         <strong class="font-semibold">m</strong>onje
                     </h1>
-                    <h2 class="font-sans uppercase font-medium text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mt-0">
+                    <h2 class="font-sans uppercase font-medium text-base md:text-lg lg:text-xl text-gray-600 leading-relaxed mt-0" itemprop="jobTitle">
                         Digital Consumer Tech <i class="font-serif">&amp;</i> Product Lead. Procter <i class="font-serif">&amp;</i> Gamble
                     </h2>
-                    <p class="font-sans leading-loose text-lg md:text-xl lg:text-4xl max-w-prose py-8">
-                        Construyo productos digitales desde hace más de 15 años. He trabajado en consultoría y en cliente. He contribuido y liderado en equipos de diseño, desarrollo y marketing desde el lado de ingeniería y del de negocio. Me gusta pensar que la tecnología puede servir para hacernos mejores. Me gusta aprender cosas nuevas. Me gusta hacer que nuevas cosas pasen.
+                    <p class="font-sans leading-loose text-lg md:text-xl lg:text-4xl max-w-prose py-8" itemprop="description">
+                        Construyo productos digitales desde hace casi 20 años. He trabajado en consultoría y en cliente. He contribuido y liderado en equipos de diseño, desarrollo y marketing desde el lado de ingeniería y del de negocio. Me gusta pensar que la tecnología puede servir para hacernos mejores. Me gusta aprender cosas nuevas. Me gusta hacer que nuevas cosas pasen.
                     </p>
                 </div>
             </div>
         </header>
     </article>
+    </main>
 </body>
 
 <!-- Mover PostHog al final y añadir defer -->

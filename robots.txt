@@ -1,0 +1,6 @@
+# robots.txt for mpermon.com
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://mpermon.com/sitemap.xml
